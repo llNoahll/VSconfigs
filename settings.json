@@ -1,0 +1,56 @@
+{
+    "editor.fontSize": 25,
+    "editor.fontFamily": "Ubuntu Mono",
+
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["h"],
+            "after": ["i"]
+        },
+        {
+            "before": ["i"],
+            "after": ["<Up>"]
+        },
+        {
+            "before": ["j"],
+            "after": ["<Left>"]
+        },
+        {
+            "before": ["k"],
+            "after": ["<Down>"]
+        }
+    ],
+
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["h"],
+            "after": ["i"]
+        },
+        {
+            "before": ["i"],
+            "after": ["<Up>"]
+        },
+        {
+            "before": ["j"],
+            "after": ["<Left>"]
+        },
+        {
+            "before": ["k"],
+            "after": ["<Down>"]
+        }
+    ],
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["<C-q>"],
+            "after": ["<Esc>"]
+        },
+        {
+            "before": ["<C-n>"],
+            "after": ["<Down>"]
+        }
+    ],
+
+    "workbench.colorTheme": "Spacemacs - dark"
+}
