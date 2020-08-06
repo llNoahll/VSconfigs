@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 25,
+    "editor.fontSize": 20,
     "editor.fontFamily": "Ubuntu Mono",
 
     "vim.leader": "<space>",
@@ -52,5 +52,6 @@
         }
     ],
 
-    "workbench.colorTheme": "Spacemacs - dark"
+    "workbench.colorTheme": "Spacemacs - dark",
+    "window.zoomLevel": 1
 }
